@@ -1,0 +1,23 @@
+.banner{
+    background: url(/assets/Desktop/Banner\ carousel\ 1\ _\ 1440.png) center no-repeat;
+    height: 410px;
+}
+
+@media (min-width: 1920px) {
+    .banner{
+        height: 548px;
+        background: url(/assets/Desktop/Banner\ carousel\ 1\ _\ 1920.png) center no-repeat;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner{
+        background: url(/assets/Tablet/Banner\ carousel\ 1\ _\ 768.png) center no-repeat;
+    }
+}
+
+@media (max-width: 375px) {
+    .banner{
+        background: url(/assets/Mobile/Banner\ carousel\ 1\ _\ 375.png) center no-repeat;
+    }
+}

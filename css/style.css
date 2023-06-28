@@ -1,0 +1,25 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css);
+@import url(cabecalho.css);
+@import url(banner.css);
+@import url(categorias.css);
+@import url(produtos.css);
+@import url(facilidades.css);
+@import url(newsletter.css);
+@import url(rodape.css);
+
+:root {
+    --preto: #000000;
+    --cinza: #CCCCCC;
+    --branco: #FFFFFF;
+    --amarelo: #DAFF01;
+    --roxo: #9353FF;
+    --coral: #EE6471;
+    --laranja: #F87F46;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+}

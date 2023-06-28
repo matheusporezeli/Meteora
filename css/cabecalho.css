@@ -1,0 +1,109 @@
+.cabecalho {
+    background-color: var(--preto);
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 23px
+}
+
+.links, .nav_links{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav_links a{
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.nav_logo{
+    width: 133px;
+    height: 32px;
+    flex-shrink: 0;
+    background: url(/assets/Desktop/Logo\ desktop.png) no-repeat;
+}
+
+.nav_pesquisa{
+    display: flex;
+    gap: 16px;
+}
+
+.nav_pesquisa__ipt{
+    width: 170px;
+    height: 38px;
+    flex-shrink: 0;
+    border: 1px solid #CED4DA;
+}
+
+.nav_pesquisa__ipt::placeholder{
+    color: #6C757D;
+    font-size: 15px;
+    font-family: Inter;
+    line-height: 24px;
+    padding: 7px 15px;
+}
+
+.nav_pesquisa__btn{
+    display: inline-flex;
+    padding: 9px 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    color: var(--branco);
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .links, .nav_links{
+        gap: 20px;
+        font-size: 13px;
+    }
+
+    .nav_logo{
+        width: 100px;
+        height: 24px;
+        background: url(/assets/Tablet/Logo\ tablet.png) no-repeat;
+    }
+
+    .nav_pesquisa__ipt{
+        width: 145px;
+        height: 38px;
+        flex-shrink: 0;
+    }
+
+    .nav_pesquisa__ipt::placeholder{
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .nav_pesquisa__btn{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 375px) {
+    .nav_pesquisa{
+        display: none;
+    }
+
+    .cabecalho{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .links{
+        justify-content: flex-end;
+    }
+
+    .nav_links{
+        display: flex;
+        flex-direction: column;
+    }
+}

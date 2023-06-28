@@ -1,0 +1,110 @@
+.facilidades{
+    display: flex;
+    padding: 40px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background: var(--preto);
+}
+
+.titulo__facilidades{
+    color: var(--branco);
+}
+
+.facilidades_lista{
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.facilidades_card{
+    display: flex;
+    width: 304px;
+    align-items: center;
+    gap: 24px;
+}
+
+.produtos__img{
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.img__pix{
+    background: url(/assets/Desktop/Ícones/x-diamond.png) center no-repeat;
+}
+
+.img__troca{
+    background: url(/assets/Desktop/Ícones/arrow-repeat.png) center no-repeat;
+}
+
+.img__sustenta{
+    background: url(/assets/Desktop/Ícones/flower.png) center no-repeat;
+}
+
+.card__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.facilidades__titulo{
+    color: var(--amarelo);
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.facilidades__descricao{
+    color: var(--branco);
+    font-size: 13px;
+    line-height: 20px;
+}
+
+@media (max-width: 768px){
+    .facilidades_lista{
+        flex-direction: column;
+    }
+
+    .img__pix{
+        background: url(/assets/Tablet/Ícones/x-diamond.png) center no-repeat;
+    }
+    
+    .img__troca{
+        background: url(/assets/Tablet/Ícones/arrow-repeat.png) center no-repeat;
+    }
+    
+    .img__sustenta{
+        background: url(/assets/Tablet/Ícones/flower.png) center no-repeat;
+    }
+}
+
+@media (max-width: 375px) {
+    .facilidades{
+        padding: 32px 0;
+    }
+
+    .titulo__facilidades{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .produtos__img{
+        width: 56px;
+        height: 56px;
+        flex-shrink: 0;
+    }
+
+    .img__pix{
+        background: url(/assets/Mobile/Ícones/x-diamond.png) center no-repeat;
+    }
+    
+    .img__troca{
+        background: url(/assets/Mobile/Ícones/arrow-repeat.png) center no-repeat;
+    }
+    
+    .img__sustenta{
+        background: url(/assets/Mobile/Ícones/flower.png) center no-repeat;
+    }
+}

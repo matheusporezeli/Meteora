@@ -1,0 +1,148 @@
+.categorias{
+    padding: 72px 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+}
+
+.sessao_titulo{
+    font-size: 32px;
+}
+
+.lista_categorias{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.categorias_card{
+    display: flex;
+    width: 160px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.categorias__descricao{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background: var(--preto);
+    color: var(--branco);
+}
+
+.categorias__img-1, .categorias__img-2, .categorias__img-3, .categorias__img-4, .categorias__img-5, .categorias__img-6 {
+    width: 160px;
+    height: 157px;
+}
+
+.categorias__img-1{
+    background: url(/assets/Desktop/Categorias/Categoria\ camiseta.png) no-repeat;
+}
+
+.categorias__img-2{
+    background: url(/assets/Desktop/Categorias/Categoria\ Bolsa.png) no-repeat;
+}
+
+.categorias__img-3{
+    background: url(/assets/Desktop/Categorias/Categoria\ Calçados.png) no-repeat;
+}
+
+.categorias__img-4{
+    background: url(/assets/Desktop/Categorias/Categoria\ calça.png) no-repeat;
+}
+
+.categorias__img-5{
+    background: url(/assets/Desktop/Categorias/Categoria\ casacos.png) no-repeat;
+}
+
+.categorias__img-6{
+    background: url(/assets/Desktop/Categorias/Categoria\ óculos.png) no-repeat;
+}
+
+@media (max-width: 768px) {
+    .categorias{
+        padding: 40px 39px
+    }
+
+    .sessao_titulo{
+        font-size: 28px;
+    }
+
+    .lista_categorias{
+        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .categorias_card, .categorias__img-1, .categorias__img-2, .categorias__img-3, .categorias__img-4, .categorias__img-5, .categorias__img-6 {
+        width: 209px;
+    }
+    
+    .categorias__img-1{
+        background: url(/assets/Tablet/Categorias/Categoria\ camiseta.png) no-repeat;
+    }
+    
+    .categorias__img-2{
+        background: url(/assets/Tablet/Categorias/Categoria\ Bolsas.png) no-repeat;
+    }
+    
+    .categorias__img-3{
+        background: url(/assets/Tablet/Categorias/Categoria\ Calçados.png) no-repeat;
+    }
+    
+    .categorias__img-4{
+        background: url(/assets/Tablet/Categorias/Categoria\ calças.png) no-repeat;
+    }
+    
+    .categorias__img-5{
+        background: url(/assets/Tablet/Categorias/Categoria\ casacos.png) no-repeat;
+    }
+    
+    .categorias__img-6{
+        background: url(/assets/Tablet/Categorias/Categoria\ óculos.png) no-repeat;
+    }
+}
+
+@media (max-width: 375px) {
+    .categorias{
+        padding: 24px 26px;
+        gap: 24px;
+    }
+
+    .lista_categorias{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .categorias_card, .categorias__img-1, .categorias__img-2, .categorias__img-3, .categorias__img-4, .categorias__img-5, .categorias__img-6 {
+        width: 146px;
+    }
+
+    .categorias__img-1{
+        background: url(/assets/Mobile/Categorias/Categoria\ camiseta.png) no-repeat;
+    }
+    
+    .categorias__img-2{
+        background: url(/assets/Mobile/Categorias/Categoria\ Bolsas.png) no-repeat;
+    }
+    
+    .categorias__img-3{
+        background: url(/assets/Mobile/Categorias/Categoria\ Calçados.png) no-repeat;
+    }
+    
+    .categorias__img-4{
+        background: url(/assets/Mobile/Categorias/Categoria\ calças.png) no-repeat;
+    }
+    
+    .categorias__img-5{
+        background: url(/assets/Mobile/Categorias/Categoria\ casacos.png) no-repeat;
+    }
+    
+    .categorias__img-6{
+        background: url(/assets/Mobile/Categorias/Categoria\ óculos.png) no-repeat;
+    }
+}
