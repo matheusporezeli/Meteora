@@ -27,17 +27,17 @@
 
 .produtos__img-1{
     height: 422px;
-    background: url(/assets/Desktop/Imagens\ Cards/Camiseta.png) center no-repeat;
+    background: url(/assets/Desktop/Imagens\ Cards/camiseta.png) center no-repeat;
 }
 
 .produtos__img-2{
     height: 422px;
-    background: url(/assets/Desktop/Imagens\ Cards/Calça.png) center no-repeat;
+    background: url(/assets/Desktop/Imagens\ Cards/calça.png) center no-repeat;
 }
 
 .produtos__img-3{
     height: 422px;
-    background: url(/assets/Desktop/Imagens\ Cards/Tenis.png) center no-repeat;
+    background: url(/assets/Desktop/Imagens\ Cards/tenis.png) center no-repeat;
 }
 
 .produtos__img-4{
@@ -52,7 +52,7 @@
 
 .produtos__img-6{
     height: 422px;
-    background: url(/assets/Desktop/Imagens\ Cards/Bolsa.png) center no-repeat;
+    background: url(/assets/Desktop/Imagens\ Cards/bolsa.png) center no-repeat;
 }
 
 .produtos__titulo, .produtos__preco{
