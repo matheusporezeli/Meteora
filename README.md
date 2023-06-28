@@ -6,8 +6,8 @@ Rápida descrição do objetivo de fazer esse projeto
 | -------------  | --- |
 | :sparkles: Nome        | **Titulo do meu projeto**
 | :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
-| :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | https://url-do-desafio.com.br
+| :rocket: URL         | meteora-seven.vercel.app
+| :fire: Desafio     | https://www.figma.com/file/D1IHQHMTu8T2a49CuRrRLM/Challenge-Front-end-%7C-Loja-Meteora-(Copy)?type=design&node-id=2386%3A2430&mode=design&t=Uu0ZJPn078qEwu5E-1
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
