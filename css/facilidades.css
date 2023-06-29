@@ -80,7 +80,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .facilidades{
         padding: 32px 0;
     }
@@ -88,6 +88,7 @@
     .titulo__facilidades{
         font-size: 24px;
         text-align: center;
+        padding: 0 5px;
     }
 
     .produtos__img{

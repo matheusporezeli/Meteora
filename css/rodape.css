@@ -13,7 +13,7 @@
     line-height: 20px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .rodape p{
         width: 246px;
     }

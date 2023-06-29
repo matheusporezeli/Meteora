@@ -16,7 +16,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .banner{
         background: url(/assets/Mobile/Banner\ carousel\ 1\ _\ 375.png) center no-repeat;
     }

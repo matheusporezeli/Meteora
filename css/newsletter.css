@@ -55,7 +55,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .newsletter{
         margin: 28px;
         padding: 24px;

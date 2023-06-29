@@ -9,6 +9,7 @@
 
 .sessao_titulo{
     font-size: 32px;
+    text-align: center;
 }
 
 .lista_categorias{
@@ -107,7 +108,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .categorias{
         padding: 24px 26px;
         gap: 24px;
