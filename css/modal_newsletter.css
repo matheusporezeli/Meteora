@@ -1,0 +1,12 @@
+.modal_newsletter {
+  display: flex;
+  width: 700px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+    .modal_newsletter{
+        width: 343px;
+    }
+}

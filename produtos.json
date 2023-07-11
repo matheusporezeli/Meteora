@@ -1,0 +1,46 @@
+{
+  "produtos": [
+    {
+      "categoria": "camiseta",
+      "imagem": "assets/Desktop/imagens_card/Camiseta.png",
+      "titulo": "Camiseta Conforto",
+      "descricao": "Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.",
+      "preco": "R$ 70,00"
+    },
+    {
+      "categoria": "calca",
+      "imagem": "assets/Desktop/imagens_card/Calça.png",
+      "titulo": "Calça Alfaiataria",
+      "descricao": "Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!",
+      "preco": "R$ 180,00"
+    },
+    {
+      "categoria": "tenis",
+      "imagem": "assets/Desktop/imagens_card/Tenis.png",
+      "titulo": "Tênis Chunky",
+      "descricao": "Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.",
+      "preco": "R$ 250,00"
+    },
+    {
+      "categoria": "jaqueta",
+      "imagem": "assets/Desktop/imagens_card/Jaqueta.png",
+      "titulo": "Jaqueta Jeans",
+      "descricao": "Modelo unissex oversized com gola de camurça. Atemporal e autêntica!",
+      "preco": "R$ 150,00"
+    },
+    {
+      "categoria": "oculos",
+      "imagem": "assets/Desktop/imagens_card/óculos.png",
+      "titulo": "Óculos Redondo",
+      "descricao": "Armação metálica em grafite com lentes arredondadas. Sem erro!",
+      "preco": "R$ 120,00"
+    },
+    {
+      "categoria": "bolsa",
+      "imagem": "assets/Desktop/imagens_card/Bolsa.png",
+      "titulo": "Bolsa coringa",
+      "descricao": "Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!",
+      "preco": "R$ 120,00"
+    }
+  ]
+}

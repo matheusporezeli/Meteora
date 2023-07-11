@@ -1,184 +1,101 @@
-.produtos{
-    padding: 0 165px 84px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
+.produtos {
+  padding: 0 165px 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
-.lista_produtos{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 27px;
+.lista_produtos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 27px;
 }
 
-.produtos_card{
-    height: 615px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border: 1px solid rgba(0, 0, 0, 0.13);
+.produtos_card {
+  height: 615px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid rgba(0, 0, 0, 0.13);
 }
 
-.produtos_card, .produtos__img-1, .produtos__img-2, .produtos__img-3, .produtos__img-4, .produtos__img-5, .produtos__img-6{
-    width: 350px;
+.produtos_card,
+.produtos__imagem {
+  width: 350px;
 }
 
-.produtos__img-1{
-    height: 422px;
-    background: url(/assets/Desktop/imagens_card/Camiseta.png) center no-repeat;
+.produtos__titulo,
+.produtos__preco {
+  color: #212529;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  padding: 13px 112px 13px 16px;
 }
 
-.produtos__img-2{
-    height: 422px;
-    background: url(/assets/Desktop/imagens_card/Calça.png) center no-repeat;
+.produtos__descricao {
+  color: #212529;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 0 16px;
 }
 
-.produtos__img-3{
-    height: 422px;
-    background: url(/assets/Desktop/imagens_card/Tenis.png) center no-repeat;
-}
-
-.produtos__img-4{
-    height: 422px;
-    background: url(/assets/Desktop/imagens_card/Jaqueta.png) center no-repeat;
-}
-
-.produtos__img-5{
-    height: 422px;
-    background: url(/assets/Desktop/imagens_card/óculos.png) center no-repeat;
-}
-
-.produtos__img-6{
-    height: 422px;
-    background: url(/assets/Desktop/imagens_card/Bolsa.png) center no-repeat;
-}
-
-.produtos__titulo, .produtos__preco{
-    color: #212529;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 23px;
-    padding: 13px 112px 13px 16px;
-}
-
-.produtos__descricao{
-    color: #212529;
-    font-size: 13px;
-    line-height: 20px;
-    padding: 0 16px;
-}
-
-.produtos__btn{
-    margin: 0px 0px 16px 16px;
-    padding: 9px 16px;
-    background: var(--roxo);
-    font-size: 16px;
-    font-family: Inter;
-    font-weight: 500;
-    letter-spacing: 0.457px;
-    color: var(--branco);
-    text-align: center;
-    border: none;
+.produtos_card button {
+  margin-bottom: 16px;
+  margin-left: 16px;
+  padding: 9px 16px;
+  background: var(--roxo);
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  letter-spacing: 0.457px;
+  color: var(--branco);
+  text-align: center;
+  border: none;
 }
 
 @media (max-width: 768px) {
-    .produtos{
-        padding: 0 39px 53px;
-        gap: 32px;
-    }
+  .produtos {
+    padding: 0 39px 53px;
+    gap: 32px;
+  }
 
-    .lista_produtos{
-        gap: 30px;
-    }
+  .lista_produtos {
+    gap: 30px;
+  }
 
-    .produtos_card{
-        height: 602px;
-    }
+  .produtos_card {
+    height: 602px;
+  }
 
-    .produtos_card, .produtos__img-1, .produtos__img-2, .produtos__img-3, .produtos__img-4, .produtos__img-5, .produtos__img-6{
-        width: 328px;
-    }
+  .produtos_card,
+  .produtos__imagem {
+    width: 328px;
+  }
 
-    .produtos__img-1{
-        height: 389px;
-        background: url(/assets/Tablet/imagens_card/camiseta.png) center no-repeat;
-    }
-    
-    .produtos__img-2{
-        height: 389px;
-        background: url(/assets/Tablet/imagens_card/calça.png) center no-repeat;
-    }
-    
-    .produtos__img-3{
-        height: 389px;
-        background: url(/assets/Tablet/imagens_card/tenis.png) center no-repeat;
-    }
-    
-    .produtos__img-4{
-        height: 389px;
-        background: url(/assets/Tablet/imagens_card/Jaqueta.png) center no-repeat;
-    }
-    
-    .produtos__img-5{
-        height: 389px;
-        background: url(/assets/Tablet/imagens_card/óculos.png) center no-repeat;
-    }
-    
-    .produtos__img-6{
-        height: 389px;
-        background: url(/assets/Tablet/imagens_card/bolsa.png) center no-repeat;
-    }
-
-    .produtos__descricao{
-        padding: 0 15px;
-    }
+  .produtos__descricao {
+    padding: 0 15px;
+  }
 }
 
 @media (max-width: 425px) {
-    .produtos{
-        padding: 0 23px 48px;
-        gap: 30px;
-    }
+  .produtos {
+    padding: 0 23px 48px;
+    gap: 30px;
+  }
 
-    .lista_produtos{
-        justify-content: center;
-    }
+  .lista_produtos {
+    justify-content: center;
+  }
 
-    .produtos_card{
-        height: auto;
-    }
+  .produtos_card {
+    height: auto;
+  }
 
-    .produtos_card, .produtos__img-1, .produtos__img-2, .produtos__img-3, .produtos__img-4, .produtos__img-5, .produtos__img-6{
-        width: 323px;
-    }
-
-    .produtos__img-1{
-        height: 402px;
-        background: url(/assets/Mobile/imagens_card/Camiseta.png) center no-repeat;
-    }
-    
-    .produtos__img-2{
-        background: url(/assets/Mobile/imagens_card/Calça.png) center no-repeat;
-    }
-    
-    .produtos__img-3{
-        background: url(/assets/Mobile/imagens_card/Tenis.png) center no-repeat;
-    }
-    
-    .produtos__img-4{
-        height: 422px;
-        background: url(/assets/Mobile/imagens_card/Jaqueta.png) center no-repeat;
-    }
-    
-    .produtos__img-5{
-        height: 422px;
-        background: url(/assets/Mobile/imagens_card/óculos.png) center no-repeat;
-    }
-    
-    .produtos__img-6{
-        height: 422px;
-        background: url(/assets/Mobile/imagens_card/Bolsa.png) center no-repeat;
-    }
+  .produtos_card,
+  .produtos__imagem {
+    width: 323px;
+  }
 }

@@ -1,23 +1,61 @@
 .banner{
-    background: url(/assets/Desktop/Banner\ carousel\ 1\ _\ 1440.png) center no-repeat;
     height: 410px;
+}
+
+.banner_img-1{
+    background: url(/assets/Desktop/Banner\ carousel\ 1\ _\ 1440.png) center no-repeat;
+}
+
+.banner_img-2{
+    background: url(/assets/Desktop/Banner\ carousel\ 2\ _\ 1440.png) center no-repeat;
+}
+
+.banner_img-3{
+    background: url(/assets/Desktop/Banner\ carousel\ 3\ _\ 1440.png) center no-repeat;
 }
 
 @media (min-width: 1920px) {
     .banner{
         height: 548px;
+    }
+
+    .banner_img-1{
         background: url(/assets/Desktop/Banner\ carousel\ 1\ _\ 1920.png) center no-repeat;
+    }
+    
+    .banner_img-2{
+        background: url(/assets/Desktop/Banner\ carousel\ 2\ _\ 1920.png) center no-repeat;
+    }
+    
+    .banner_img-3{
+        background: url(/assets/Desktop/Banner\ carousel\ 3\ _\ 1920.png) center no-repeat;
     }
 }
 
 @media (max-width: 768px) {
-    .banner{
+    .banner_img-1{
         background: url(/assets/Tablet/Banner\ carousel\ 1\ _\ 768.png) center no-repeat;
+    }
+
+    .banner_img-2{
+        background: url(/assets/Tablet/Banner\ carousel\ 2\ _\ 768.png) center no-repeat;
+    }
+
+    .banner_img-3{
+        background: url(/assets/Tablet/Banner\ carousel\ 3\ _\ 768.png) center no-repeat;
     }
 }
 
 @media (max-width: 425px) {
-    .banner{
+    .banner_img-1{
         background: url(/assets/Mobile/Banner\ carousel\ 1\ _\ 375.png) center no-repeat;
+    }
+
+    .banner_img-2{
+        background: url(/assets/Mobile/Banner\ carousel\ 2\ _\ 375.png) center no-repeat;
+    }
+
+    .banner_img-3{
+        background: url(/assets/Mobile/Banner\ carousel\ 3\ _\ 375.png) center no-repeat;
     }
 }

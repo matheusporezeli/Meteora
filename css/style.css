@@ -6,20 +6,21 @@
 @import url(facilidades.css);
 @import url(newsletter.css);
 @import url(rodape.css);
+@import url(modal_produtos.css);
+@import url(modal_newsletter.css);
 
 :root {
-    --preto: #000000;
-    --cinza: #CCCCCC;
-    --branco: #FFFFFF;
-    --amarelo: #DAFF01;
-    --roxo: #9353FF;
-    --coral: #EE6471;
-    --laranja: #F87F46;
+  --preto: #000000;
+  --cinza: #cccccc;
+  --branco: #ffffff;
+  --amarelo: #daff01;
+  --roxo: #9353ff;
+  --coral: #ee6471;
+  --laranja: #f87f46;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
 }
