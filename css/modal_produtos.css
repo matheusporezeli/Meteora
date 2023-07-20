@@ -1,5 +1,5 @@
 .modal_produtos {
-  display: none;
+  display: flex;
   width: 700px;
   height: 587px;
   flex-direction: column;

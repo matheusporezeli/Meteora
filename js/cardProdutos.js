@@ -9,7 +9,7 @@ fetch("./produtos.json").then((response) => {
                     <h2 class="produtos__titulo">${produto.titulo}</h2>
                     <p class="produtos__descricao">${produto.descricao}</p>
                     <h2 class="produtos__preco">${produto.preco}</h2>
-                    <button>Ver mais</button>
+                    <button class="verMaisBTN">Ver mais</button>
                 </li>`;
     });
   });

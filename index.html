@@ -1,213 +1,251 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>METEORA</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="assets/Favicon-64px.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header class="cabecalho">
-        <section class="links">
-            <div class="nav_logo"></div>
-            <ul class="nav_links">
-                <a href="index.html">Home</a>
-                <a href="#">Nossas lojas</a>
-                <a href="#">Novidades</a>
-                <a href="#">Promoções</a>
-            </ul>
-        </section>
-        <section class="nav_pesquisa">
-            <input type="search" class="nav_pesquisa__ipt" placeholder="Digite o produto">
-            <button class="nav_pesquisa__btn">Buscar</button>
-        </section>
+      <section class="links">
+        <div class="nav_logo"></div>
+        <ul class="nav_links">
+          <a href="index.html">Home</a>
+          <a href="#">Nossas lojas</a>
+          <a href="#">Novidades</a>
+          <a href="#">Promoções</a>
+        </ul>
+      </section>
+      <section class="nav_pesquisa">
+        <input
+          type="search"
+          class="nav_pesquisa__ipt"
+          placeholder="Digite o produto"
+        />
+        <button class="nav_pesquisa__btn">Buscar</button>
+      </section>
     </header>
 
     <div class="swiper banner">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide banner_img-1"></div>
-            <div class="swiper-slide banner_img-2"></div>
-            <div class="swiper-slide banner_img-3"></div>
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-    
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-    
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide banner_img-1"></div>
+        <div class="swiper-slide banner_img-2"></div>
+        <div class="swiper-slide banner_img-3"></div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
     </div>
 
     <section class="categorias">
-        <h1 class="sessao_titulo">Busque por categoria:</h1>
-        <ul class="lista_categorias">
-            <li class="categorias_card">
-                <div class="categorias__img-1"></div>
-                <h3 class="categorias__descricao">Camisetas</h3>
-            </li>
-            <li class="card">
-                <div class="categorias__img-2"></div>
-                <h3 class="categorias__descricao">Bolsas</h3>
-            </li>
-            <li class="card">
-                <div class="categorias__img-3"></div>
-                <h3 class="categorias__descricao">Calçados</h3>
-            </li>
-            <li class="card">
-                <div class="categorias__img-4"></div>
-                <h3 class="categorias__descricao">Calças</h3>
-            </li>
-            <li class="card">
-                <div class="categorias__img-5"></div>
-                <h3 class="categorias__descricao">Casacos</h3>
-            </li>
-            <li class="card">
-                <div class="categorias__img-6"></div>
-                <h3 class="categorias__descricao">Óculos</h3>
-            </li>
-        </ul>
+      <h1 class="sessao_titulo">Busque por categoria:</h1>
+      <ul class="lista_categorias">
+        <li class="categorias_card">
+          <div class="categorias__img-1"></div>
+          <h3 class="categorias__descricao">Camisetas</h3>
+        </li>
+        <li class="card">
+          <div class="categorias__img-2"></div>
+          <h3 class="categorias__descricao">Bolsas</h3>
+        </li>
+        <li class="card">
+          <div class="categorias__img-3"></div>
+          <h3 class="categorias__descricao">Calçados</h3>
+        </li>
+        <li class="card">
+          <div class="categorias__img-4"></div>
+          <h3 class="categorias__descricao">Calças</h3>
+        </li>
+        <li class="card">
+          <div class="categorias__img-5"></div>
+          <h3 class="categorias__descricao">Casacos</h3>
+        </li>
+        <li class="card">
+          <div class="categorias__img-6"></div>
+          <h3 class="categorias__descricao">Óculos</h3>
+        </li>
+      </ul>
     </section>
 
-    <section class="modal_produtos" data-modalProdutos>
+    <dialog id="modalProdutos">
+      <section class="modal_produtos">
         <header class="modal_cabecalho">
-            <div class="cabecalho_esquerda">
-                <img src="/assets/check-circle.svg">
-                <h1 class="modal_titulo">Confira detalhes sobre o produto</h1>
-            </div>
-            <img src="/assets/x-icon.svg" class="cabecalho_close">
+          <div class="cabecalho_esquerda">
+            <img src="/assets/check-circle.svg" />
+            <h1 class="modal_titulo">Confira detalhes sobre o produto</h1>
+          </div>
+          <img src="/assets/x-icon.svg" class="cabecalho_close" />
         </header>
         <section class="modal_container">
-            <div class="modal_img"></div>
-        
-            <div class="modal_descricao">
-                <div class="modal_card-1">
-                    <h1 class="produto__titulo">Jaqueta Jeans</h1>
-                    <p class="produto__descricao">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
-                    <p class="produto__preco">R$ 150,00</p>
-                    <p class="produto__vendedor">Vendido e entregue por Riachuelo</p>
-                </div>
-        
-                <div class="modal_card-2">
-                    <h2 class="modal_titulo-2">Cores:</h2>
-                    
-                    <div class="modal_options">
-                        <div class="modal_ipt">
-                            <input type="radio" class="color-1">
-                            <label for="color-1" class="modal_label">Azul claro</label>
-                        </div>
-                        <div class="modal_ipt">
-                            <input type="radio" class="color-2">
-                            <label for="color-2" class="modal_label">Offwhite</label>
-                        </div>
-                        <div class="modal_ipt">
-                            <input type="radio" class="color-3">
-                            <label for="color-3" class="modal_label">Preto</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal_card-2">
-                    <h2 class="modal_titulo-2">Tamanho:</h2>
-        
-                    <div class="modal_options">
-                        <div class="modal_ipt">
-                            <input type="radio" class="size-1">
-                            <label for="size-1" class="modal_label">PP</label>
-                        </div>
-        
-                        <div class="modal_ipt">
-                            <input type="radio" class="size-2">
-                            <label for="size-2" class="modal_label">P</label>
-                        </div>
-        
-                        <div class="modal_ipt">
-                            <input type="radio" class="size-3">
-                            <label for="size-3" class="modal_label">M</label>
-                        </div>
-        
-                        <div class="modal_ipt">
-                            <input type="radio" class="size-4">
-                            <label for="size-4" class="modal_label">G</label>
-                        </div>
-        
-                        <div class="modal_ipt">
-                            <input type="radio" class="size-5">
-                            <label for="size-5" class="modal_label">GG</label>
-                        </div>
-                    </div>
-                </div>
-        
-                <button>Adicionar à sacola</button>
+          <div class="modal_img"></div>
+
+          <div class="modal_descricao">
+            <div class="modal_card-1">
+              <h1 class="produto__titulo">Jaqueta Jeans</h1>
+              <p class="produto__descricao">
+                Modelo unissex oversized com gola de camurça. Atemporal e
+                autêntica!
+              </p>
+              <p class="produto__preco">R$ 150,00</p>
+              <p class="produto__vendedor">Vendido e entregue por Riachuelo</p>
             </div>
+
+            <div class="modal_card-2">
+              <h2 class="modal_titulo-2">Cores:</h2>
+
+              <div class="modal_options">
+                <div class="modal_ipt">
+                  <input type="radio" class="color-1" />
+                  <label for="color-1" class="modal_label">Azul claro</label>
+                </div>
+                <div class="modal_ipt">
+                  <input type="radio" class="color-2" />
+                  <label for="color-2" class="modal_label">Offwhite</label>
+                </div>
+                <div class="modal_ipt">
+                  <input type="radio" class="color-3" />
+                  <label for="color-3" class="modal_label">Preto</label>
+                </div>
+              </div>
+            </div>
+            <div class="modal_card-2">
+              <h2 class="modal_titulo-2">Tamanho:</h2>
+
+              <div class="modal_options">
+                <div class="modal_ipt">
+                  <input type="radio" class="size-1" />
+                  <label for="size-1" class="modal_label">PP</label>
+                </div>
+
+                <div class="modal_ipt">
+                  <input type="radio" class="size-2" />
+                  <label for="size-2" class="modal_label">P</label>
+                </div>
+
+                <div class="modal_ipt">
+                  <input type="radio" class="size-3" />
+                  <label for="size-3" class="modal_label">M</label>
+                </div>
+
+                <div class="modal_ipt">
+                  <input type="radio" class="size-4" />
+                  <label for="size-4" class="modal_label">G</label>
+                </div>
+
+                <div class="modal_ipt">
+                  <input type="radio" class="size-5" />
+                  <label for="size-5" class="modal_label">GG</label>
+                </div>
+              </div>
+            </div>
+
+            <button>Adicionar à sacola</button>
+          </div>
         </section>
-    </section>
+      </section>
+    </dialog>
 
     <section class="produtos">
-        <h1 class="sessao_titulo">Produtos que estão bombando!</h1>
-        <ul class="lista_produtos" id="lista_produtos"></ul>
+      <h1 class="sessao_titulo">Produtos que estão bombando!</h1>
+      <ul class="lista_produtos" id="lista_produtos"></ul>
     </section>
 
     <section class="facilidades">
-        <h1 class="sessao_titulo titulo__facilidades">Conheça todas as nossas facilidades</h1>
-        <ul class="facilidades_lista">
-            <li class="facilidades_card">
-                <div class="produtos__img img__pix"></div>
-                <div class="card__conteudo">
-                    <h2 class="facilidades__titulo">PAGUE PELO PIX</h2>
-                    <p class="facilidades__descricao">Ganhe 5% OFF em pagamentos via PIX</p>
-                </div>
-            </li>
-            <li class="facilidades_card">
-                <div class="produtos__img img__troca"></div>
-                <div class="card__conteudo">
-                    <h2 class="facilidades__titulo">TROCA GRÁTIS</h2>
-                    <p class="facilidades__descricao">Fique livre para trocar em até 30 dias.</p>
-                </div>
-            </li>
-            <li class="facilidades_card">
-                <div class="produtos__img img__sustenta"></div>
-                <div class="card__conteudo">
-                    <h2 class="facilidades__titulo">SUSTENTABILIDADE</h2>
-                    <p class="facilidades__descricao">Moda responsável, que respeita o meio ambiente.</p>
-                </div>
-            </li>
-        </ul>
+      <h1 class="sessao_titulo titulo__facilidades">
+        Conheça todas as nossas facilidades
+      </h1>
+      <ul class="facilidades_lista">
+        <li class="facilidades_card">
+          <div class="produtos__img img__pix"></div>
+          <div class="card__conteudo">
+            <h2 class="facilidades__titulo">PAGUE PELO PIX</h2>
+            <p class="facilidades__descricao">
+              Ganhe 5% OFF em pagamentos via PIX
+            </p>
+          </div>
+        </li>
+        <li class="facilidades_card">
+          <div class="produtos__img img__troca"></div>
+          <div class="card__conteudo">
+            <h2 class="facilidades__titulo">TROCA GRÁTIS</h2>
+            <p class="facilidades__descricao">
+              Fique livre para trocar em até 30 dias.
+            </p>
+          </div>
+        </li>
+        <li class="facilidades_card">
+          <div class="produtos__img img__sustenta"></div>
+          <div class="card__conteudo">
+            <h2 class="facilidades__titulo">SUSTENTABILIDADE</h2>
+            <p class="facilidades__descricao">
+              Moda responsável, que respeita o meio ambiente.
+            </p>
+          </div>
+        </li>
+      </ul>
     </section>
 
     <section class="newsletter">
-        <label for="newsletter_ipt" class="newsletter_label">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</label>
-        <div class="newsletter_enviar">
-            <input type="email" class="newsletter_ipt" placeholder="Digite seu email" minlength="4" required>
-            <button class="newsletter_btn" type="submit">Enviar</button>
-        </div>
+      <label for="newsletter_ipt" class="newsletter_label"
+        >Quer receber nossas novidades, promoções exclusivas e 10% OFF na
+        primeira compra? Cadastre-se!</label
+      >
+      <div class="newsletter_enviar">
+        <input
+          type="email"
+          class="newsletter_ipt"
+          placeholder="Digite seu email"
+          minlength="4"
+          required
+        />
+        <button id="modalNewsletterbtn" class="newsletter_btn" type="submit">
+          Enviar
+        </button>
+      </div>
     </section>
 
-    <section class="modal_newsletter">
+    <dialog id="modalNewsletter">
+      <section class="modal_newsletter">
         <header class="modal_cabecalho">
-            <div class="cabecalho_esquerda">
-                <img src="/assets/check-circle.svg">
-                <h1 class="modal_titulo">E-mail cadastrado com sucesso!</h1>
-            </div>
-            <img src="/assets/x-icon.svg">
+          <div class="cabecalho_esquerda">
+            <img src="/assets/check-circle.svg" />
+            <h1 class="modal_titulo">E-mail cadastrado com sucesso!</h1>
+          </div>
+          <button id="fechaModalNews" class="fecha_modal">
+            <img src="/assets/x-icon.svg" />
+          </button>
         </header>
-        <p class="modal_container">Em breve você receberá novidades exclusivas da Meteora.</p>
-    </section>
+        <p class="modal_container">
+          Em breve você receberá novidades exclusivas da Meteora.
+        </p>
+      </section>
+    </dialog>
 
     <footer class="rodape">
-        <p>2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
+      <p>
+        2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.
+      </p>
     </footer>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="/js/swiper.js"></script>
     <script src="/js/cardProdutos.js"></script>
-
-</body>
+    <script src="/js/modalNewsletter.js"></script>
+    <script src="/js/modalProdutos.js"></script>
+  </body>
 </html>
+D

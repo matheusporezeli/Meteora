@@ -42,6 +42,7 @@
     background: var(--roxo);
     letter-spacing: 0.457px;
     color: var(--branco);
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
