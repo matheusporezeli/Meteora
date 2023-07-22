@@ -36,7 +36,7 @@ Para isso, eles solicitaram nossa ajuda como desenvolvedores para criar um site 
 
 
 # 📸Images
-![layouts](https://github.com/matheusporezeli/Meteora/assets/112051389/a3cfecf8-8911-4418-a5b0-ea344bd10a57)
+![layouts](https://github.com/matheusporezeli/Meteora/assets/112051389/a3cfecf8-8911-4418-a5b0-ea344bd10a57#vitrinidev)
 
 
 ## Desenvolvimento do projeto
