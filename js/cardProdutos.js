@@ -12,5 +12,20 @@ fetch("./produtos.json").then((response) => {
                     <button class="verMaisBTN">Ver mais</button>
                 </li>`;
     });
+    mostraModal();
   });
 });
+
+function mostraModal() {
+  const modalProdutos = document.querySelector("#modalProdutos");
+  const verMaisBTN = document.querySelector(".verMaisBTN");
+  const fechaModalProdutos = document.querySelector("#fechaModalProdutos");
+
+  verMaisBTN.onclick = function () {
+    modalProdutos.showModal();
+  };
+
+  fechaModalProdutos.onclick = function () {
+    modalProdutos.close();
+  };
+}
