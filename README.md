@@ -52,3 +52,5 @@ Por fim fiz o menu hamburguer e a responsividade da página.<br>
 ## Desafios encontrados
 
 A parte mais complicada foi a criação do modal e fazer com que ele funcionasse, porém com uma ajuda de outras pessoas do discord da Alura e um pouco de pesquisa na documentação consegui entender que tag usar e como criar o JS para tal.
+
+Figma: https://www.figma.com/design/2TLgt8UjsWUViWlmpXu5Fz/Challenge-Front-end-%7C-Loja-Meteora?node-id=2386-2430&p=f&t=E3S8CpqzEHYqyXZs-0
